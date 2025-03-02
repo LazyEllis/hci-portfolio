@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-xl font-bold mb-4">Prof. Alan Turing</h3>
+            <h3 className="text-xl font-bold mb-4">Prof. Sola Maitanmi</h3>
             <p className="text-gray-400 mb-4">
-              Professor of Computer Science at Cambridge University,
+              Professor of Software Engineering at Babcock University,
               specializing in artificial intelligence, machine learning, and
-              computational theory.
+              computational theory with focus on African development.
             </p>
 
             <div className="flex space-x-4">
@@ -64,17 +64,17 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-400">
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  University Directory
+                  Babcock University
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Department Website
+                  SE Department
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Research Lab
+                  Nigerian CS Community
                 </a>
               </li>
               <li>
@@ -88,7 +88,8 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Prof. Alan Turing. All rights reserved.
+            © {new Date().getFullYear()} Prof. Sola Maitanmi. All rights
+            reserved.
           </div>
 
           <div className="text-gray-400 text-sm">

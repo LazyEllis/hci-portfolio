@@ -56,7 +56,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <p className="text-gray-600">professor@university.edu</p>
+                  <p className="text-gray-600">maitanmi@babcock.edu.ng</p>
                   <p className="text-sm text-gray-500 mt-1">
                     For academic inquiries
                   </p>
@@ -69,9 +69,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Office Hours</h4>
-                  <p className="text-gray-600">Monday & Wednesday, 2-4pm</p>
+                  <p className="text-gray-600">Tuesday & Thursday, 10am-12pm</p>
                   <p className="text-sm text-gray-500 mt-1">
-                    Room 305, Computer Science Building
+                    Room 205, New Horizons Building
                   </p>
                 </div>
               </div>
@@ -82,9 +82,11 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Department</h4>
-                  <p className="text-gray-600">Computer Science Department</p>
+                  <p className="text-gray-600">
+                    Software Engineering Department
+                  </p>
                   <p className="text-sm text-gray-500 mt-1">
-                    Cambridge University
+                    Babcock University, Ilishan-Remo
                   </p>
                 </div>
               </div>

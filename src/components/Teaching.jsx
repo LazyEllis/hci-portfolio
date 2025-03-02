@@ -117,7 +117,9 @@ const Teaching = () => {
                 </div>
                 <div>
                   <div className="font-medium">Office Hours</div>
-                  <div className="text-sm text-gray-500">Mon & Wed, 2-4pm</div>
+                  <div className="text-sm text-gray-500">
+                    Tuesday & Thursday, 10am-12pm
+                  </div>
                 </div>
               </div>
 
@@ -128,7 +130,7 @@ const Teaching = () => {
                 <div>
                   <div className="font-medium">Student Contact</div>
                   <div className="text-sm text-gray-500">
-                    office@cs.university.edu
+                    office@babcock.edu.ng
                   </div>
                 </div>
               </div>

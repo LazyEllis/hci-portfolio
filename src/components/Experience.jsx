@@ -24,10 +24,10 @@ const Experience = () => {
   const experiences = [
     {
       period: "2018 - Present",
-      title: "Professor of Computer Science",
-      company: "Cambridge University",
+      title: "Professor of Software Engineering",
+      company: "Babcock University",
       description:
-        "Leading research in AI and machine learning. Teaching graduate and undergraduate courses in algorithms and computational theory.",
+        "Leading research in AI and machine learning. Teaching graduate and undergraduate courses in algorithms and computational theory. Heading the Department of Software Engineering.",
     },
     {
       period: "2013 - 2018",
@@ -39,9 +39,9 @@ const Experience = () => {
     {
       period: "2010 - 2013",
       title: "Research Scientist",
-      company: "Google DeepMind",
+      company: "Google Africa Research Center",
       description:
-        "Contributed to breakthrough projects in reinforcement learning and game-playing AI systems.",
+        "Contributed to breakthrough projects in AI applications for African contexts and reinforcement learning systems.",
     },
     {
       period: "2007 - 2010",

@@ -50,8 +50,8 @@ const Research = () => {
       description:
         "Developing a comprehensive framework for making black-box AI models more interpretable through visualization techniques and local explanations.",
       status: "Active",
-      funding: "National Science Foundation",
-      collaborators: "MIT, Stanford University",
+      funding: "Nigerian Research Foundation",
+      collaborators: "Lagos University Teaching Hospital, MIT",
       year: "2022-2025",
     },
     {
@@ -59,8 +59,8 @@ const Research = () => {
       description:
         "Creating more computationally efficient graph neural network architectures for processing large-scale graph data structures.",
       status: "Active",
-      funding: "Google Research",
-      collaborators: "Google DeepMind, Cambridge",
+      funding: "Google Africa Research",
+      collaborators: "Google DeepMind, University of Cape Town",
       year: "2023-2024",
     },
     {
@@ -68,17 +68,17 @@ const Research = () => {
       description:
         "Investigating methods to detect and mitigate bias in machine learning pipelines across various domains.",
       status: "Completed",
-      funding: "European Research Council",
-      collaborators: "Oxford University, ETH Zurich",
+      funding: "African AI Initiative",
+      collaborators: "Babcock University, Oxford University",
       year: "2020-2022",
     },
   ];
 
   const students = [
     {
-      name: "Sarah Johnson",
+      name: "Oluwaseun Johnson",
       degree: "PhD",
-      topic: "Reinforcement Learning for Robotic Control",
+      topic: "Reinforcement Learning for Agricultural Decision Systems",
       year: "3rd Year",
       image: "/api/placeholder/60/60",
     },
@@ -97,14 +97,14 @@ const Research = () => {
       image: "/api/placeholder/60/60",
     },
     {
-      name: "David Chen",
+      name: "Daniel Okonkwo",
       degree: "PhD",
-      topic: "Theoretical Bounds for Semi-Supervised Learning",
+      topic:
+        "Theoretical Bounds for Semi-Supervised Learning with Limited Data",
       year: "1st Year",
       image: "/api/placeholder/60/60",
     },
   ];
-
   return (
     <section id="research" ref={sectionRef} className="py-20 bg-white">
       <div className="container mx-auto px-4">

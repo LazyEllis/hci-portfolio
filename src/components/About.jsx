@@ -35,9 +35,9 @@ const About = () => {
 
   const stats = [
     { icon: <Calendar size={24} />, value: "15+", label: "Years Teaching" },
-    { icon: <Book size={24} />, value: "72", label: "Publications" },
-    { icon: <Users size={24} />, value: "120+", label: "PhD Students" },
-    { icon: <Award size={24} />, value: "8", label: "Major Awards" },
+    { icon: <Book size={24} />, value: "65", label: "Publications" },
+    { icon: <Users size={24} />, value: "100+", label: "PhD Students" },
+    { icon: <Award size={24} />, value: "7", label: "Major Awards" },
   ];
 
   return (
@@ -59,27 +59,30 @@ const About = () => {
 
             <div className="space-y-4 text-gray-700">
               <p>
-                I am a Professor of Computer Science at Cambridge University,
-                specializing in artificial intelligence, machine learning, and
-                computational theory. My research focuses on developing novel
-                algorithmic approaches to solve complex problems in various
-                domains.
+                I am a Professor and current Head of Department of Software
+                Engineering at Babcock University, Nigeria, specializing in
+                artificial intelligence, machine learning, and computational
+                theory. My research focuses on developing novel algorithmic
+                approaches to solve complex problems in various domains with
+                particular applications in the African context.
               </p>
 
               <p>
                 With over 15 years of teaching experience, I have mentored
                 numerous undergraduate and graduate students who have gone on to
-                successful careers in academia and industry. My teaching
-                philosophy emphasizes practical applications of theoretical
-                concepts and fostering critical thinking.
+                successful careers in academia and industry across Nigeria and
+                internationally. My teaching philosophy emphasizes practical
+                applications of theoretical concepts and fostering critical
+                thinking adapted to local and global challenges.
               </p>
 
               <p>
-                Prior to joining Cambridge, I worked as a research scientist at
-                Google DeepMind, where I contributed to significant
-                breakthroughs in reinforcement learning. I hold a Ph.D. in
-                Computer Science from MIT and a Bachelor's degree in Mathematics
-                from Oxford University.
+                Prior to my current position, I worked as a visiting research
+                scientist at Google's African AI research center, where I
+                contributed to significant breakthroughs in machine learning
+                applications for the African continent. I hold a Ph.D. in
+                Computer Science from the University of Lagos and a Bachelor's
+                degree in Mathematics from Babcock University.
               </p>
             </div>
 

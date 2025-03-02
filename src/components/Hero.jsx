@@ -42,15 +42,15 @@ const Hero = ({ scrollToSection }) => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              <span className="block">Prof. Alan Turing</span>
+              <span className="block">Prof. Sola Maitanmi</span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
-                Computer Science
+                Software Engineering
               </span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 mb-8">
-              Advancing the frontiers of artificial intelligence and
-              computational theory.
+              Advancing computational theory and artificial intelligence in
+              Nigeria and globally.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -85,7 +85,7 @@ const Hero = ({ scrollToSection }) => {
             <div className="aspect-square rounded-full overflow-hidden border-8 border-white shadow-xl mx-auto max-w-md">
               <img
                 src="/api/placeholder/400/400"
-                alt="Professor Alan Turing"
+                alt="Professor Sola Maitanmi"
                 className="w-full h-full object-cover"
               />
             </div>
