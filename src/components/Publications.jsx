@@ -117,7 +117,7 @@ const Publications = () => {
 
         <div className="mt-10 grid md:grid-cols-2 gap-6">
           <AnimatePresence mode="wait">
-            {filteredPublications.map((pub, index) => (
+            {filteredPublications.map((pub) => (
               <motion.div
                 key={pub.title}
                 layout
