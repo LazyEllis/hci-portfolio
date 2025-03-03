@@ -84,7 +84,7 @@ const Hero = ({ scrollToSection }) => {
           >
             <div className="aspect-square rounded-full overflow-hidden border-8 border-white shadow-xl mx-auto max-w-md">
               <img
-                src="/api/placeholder/400/400"
+                src="/src/img/portrait.png"
                 alt="Professor Sola Maitanmi"
                 className="w-full h-full object-cover"
               />
