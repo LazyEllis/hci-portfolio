@@ -17,6 +17,30 @@ const App = () => {
   useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
+
+      // Get all sections
+      const sections = [
+        "home",
+        "about",
+        "experience",
+        "publications",
+        "teaching",
+        "research",
+        "contact",
+      ];
+
+      // Find which section is currently in view
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = document.getElementById(sections[i]);
+        if (!section) continue;
+
+        const rect = section.getBoundingClientRect();
+        // If section is in view (allowing for some buffer for the header)
+        if (rect.top <= 150 && rect.bottom > 0) {
+          setActiveSection(sections[i]);
+          break;
+        }
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
