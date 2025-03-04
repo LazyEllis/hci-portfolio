@@ -42,7 +42,7 @@ const Header = ({
           className="flex items-center"
         >
           <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
-            Dr. Sola Maitanmi
+            Dr. Oluwasola Maitanmi
           </span>
         </motion.div>
 
