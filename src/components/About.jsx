@@ -34,10 +34,14 @@ const About = () => {
   }, []);
 
   const stats = [
-    { icon: <Calendar size={24} />, value: "15+", label: "Years Teaching" },
-    { icon: <Book size={24} />, value: "65", label: "Publications" },
-    { icon: <Users size={24} />, value: "100+", label: "PhD Students" },
-    { icon: <Award size={24} />, value: "7", label: "Major Awards" },
+    {
+      icon: <Calendar size={24} />,
+      value: "20+",
+      label: "Years in Higher Education",
+    },
+    { icon: <Book size={24} />, value: "40+", label: "Publications" },
+    { icon: <Users size={24} />, value: "6", label: "Books Published" },
+    { icon: <Award size={24} />, value: "2", label: "Leadership Positions" },
   ];
 
   return (
@@ -59,41 +63,44 @@ const About = () => {
 
             <div className="space-y-4 text-gray-700">
               <p>
-                I am a Professor and current Head of Department of Software
-                Engineering at Babcock University, Nigeria, specializing in
-                artificial intelligence, machine learning, and computational
-                theory. My research focuses on developing novel algorithmic
-                approaches to solve complex problems in various domains with
-                particular applications in the African context.
+                I am an Associate Professor of Computer Science (Software
+                Engineering) at Babcock University, Nigeria, with a track record
+                of 20 years in Higher Education. Currently, I serve as the Head
+                of Department of Software Engineering and Deputy Director
+                Academics at Babcock University Center for Open and Distance
+                e-learning (BUCODeL).
               </p>
 
               <p>
-                With over 15 years of teaching experience, I have mentored
-                numerous undergraduate and graduate students who have gone on to
-                successful careers in academia and industry across Nigeria and
-                internationally. My teaching philosophy emphasizes practical
-                applications of theoretical concepts and fostering critical
-                thinking adapted to local and global challenges.
+                My educational background includes both MSc and PhD degrees from
+                Babcock University, complemented by Post-Doctoral Research
+                conducted at Andrews University in Berrien Springs, Michigan,
+                USA. Throughout my academic journey, I've focused on developing
+                innovative approaches to software engineering with particular
+                applications in distance learning and human-computer
+                interaction.
               </p>
 
               <p>
-                Prior to my current position, I worked as a visiting research
-                scientist at Google's African AI research center, where I
-                contributed to significant breakthroughs in machine learning
-                applications for the African continent. I hold a Ph.D. in
-                Computer Science from the University of Lagos and a Bachelor's
-                degree in Mathematics from Babcock University.
+                As a proficient writer, I have authored several educational
+                manuals including "Introduction to Big Data Engineering Manual"
+                (2021), "Introduction to Web Technology" (2021), "Research
+                Proposal and Writing for Students" (2022), "Web Technology and
+                Application Development" (2024), and "Human Computer
+                Interaction" (2025). Additionally, I have published over 40
+                peer-reviewed journal articles across various domains in
+                computer science.
               </p>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <Skill name="Machine Learning" />
-              <Skill name="Artificial Intelligence" />
-              <Skill name="Algorithms" />
-              <Skill name="Neural Networks" />
-              <Skill name="Python" />
-              <Skill name="TensorFlow" />
-              <Skill name="Data Structures" />
+              <Skill name="Cyber Physical Systems" />
+              <Skill name="Distance Learning Education" />
+              <Skill name="Learning Management Systems" />
+              <Skill name="Human Computer Interaction" />
+              <Skill name="Software Engineering" />
+              <Skill name="Web Technology" />
+              <Skill name="Big Data" />
               <Skill name="Research Methods" />
             </div>
           </motion.div>

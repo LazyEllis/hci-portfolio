@@ -69,9 +69,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Office Hours</h4>
-                  <p className="text-gray-600">Tuesday & Thursday, 10am-12pm</p>
+                  <p className="text-gray-600">Monday & Wednesday, 10am-12pm</p>
                   <p className="text-sm text-gray-500 mt-1">
-                    Room 205, New Horizons Building
+                    Software Engineering Department Building
                   </p>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const Contact = () => {
                     Software Engineering Department
                   </p>
                   <p className="text-sm text-gray-500 mt-1">
-                    Babcock University, Ilishan-Remo
+                    Babcock University, Ilishan-Remo, Ogun State, Nigeria
                   </p>
                 </div>
               </div>
@@ -96,8 +96,9 @@ const Contact = () => {
               <h4 className="font-medium mb-3">Prospective Students</h4>
               <p className="text-gray-600 text-sm">
                 I am currently accepting new PhD students with interests in
-                machine learning, algorithm design, and computational theory.
-                Please email me with your CV and research interests.
+                human-computer interaction, cyber-physical systems, distance
+                learning education, and learning management systems. Please
+                email me with your CV and research interests.
               </p>
             </div>
           </motion.div>

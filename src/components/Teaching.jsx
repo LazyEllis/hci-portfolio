@@ -31,39 +31,39 @@ const Teaching = () => {
 
   const courses = [
     {
-      code: "CS401",
-      title: "Advanced Algorithms",
-      level: "Graduate",
+      code: "SENG 404",
+      title: "Human Computer Interaction",
+      level: "Undergraduate",
       description:
-        "Analysis of algorithmic design techniques, including divide-and-conquer, dynamic programming, and greedy algorithms. Exploration of NP-completeness and approximation algorithms.",
-      semester: "Fall",
+        "Principles of designing effective user interfaces, usability evaluation methods, and user-centered design approaches for software systems.",
+      semester: "Spring",
       icon: <Code size={24} />,
     },
     {
-      code: "CS315",
-      title: "Machine Learning Fundamentals",
+      code: "SENG 412",
+      title: "Web Technology",
       level: "Undergraduate",
       description:
-        "Introduction to machine learning concepts, including supervised and unsupervised learning, neural networks, and evaluation metrics.",
+        "Introduction to web development technologies, client-side and server-side programming, responsive web design, and modern web frameworks.",
       semester: "Spring",
       icon: <Book size={24} />,
     },
     {
-      code: "CS502",
-      title: "Computational Theory",
-      level: "Graduate",
+      code: "SENG 303",
+      title: "Big Data Engineering",
+      level: "Undergraduate",
       description:
-        "Advanced topics in computational complexity, automata theory, and formal languages. Focus on theoretical foundations of computer science.",
+        "Advanced topics in big data processing, storage, and analysis, including distributed computing frameworks and data visualization techniques.",
       semester: "Fall",
       icon: <GraduationCap size={24} />,
     },
     {
-      code: "CS210",
-      title: "Data Structures",
-      level: "Undergraduate",
+      code: "CSC610",
+      title: "Research Methods in Computing",
+      level: "Graduate",
       description:
-        "Implementation and analysis of fundamental data structures including arrays, linked lists, stacks, queues, trees, and graphs.",
-      semester: "Spring",
+        "Approaches to research in computer science, proposal writing, research design, data collection and analysis techniques for computing disciplines.",
+      semester: "Fall",
       icon: <Briefcase size={24} />,
     },
   ];
@@ -87,26 +87,28 @@ const Teaching = () => {
 
             <div className="space-y-4 text-gray-700">
               <p>
-                My teaching approach is centered on making complex theoretical
-                concepts accessible through practical applications and
-                real-world examples. I believe in active learning, where
-                students engage with the material through projects, discussions,
-                and problem-solving activities.
+                My teaching approach focuses on bridging theoretical concepts
+                with practical applications to prepare students for real-world
+                challenges in software development and engineering. With 20
+                years in higher education, I've developed methods that promote
+                critical thinking and innovation in technological contexts.
               </p>
 
               <p>
-                I emphasize critical thinking and creativity in problem-solving,
-                encouraging students to develop their own approaches rather than
-                simply memorizing solutions. My goal is to prepare students not
-                just for exams, but for their future careers in research or
-                industry.
+                I believe strongly in the integration of technology in
+                education, particularly in distance learning environments. My
+                role at BUCODeL has allowed me to develop and implement
+                effective e-learning strategies that enhance student engagement
+                and knowledge retention.
               </p>
 
               <p>
-                I maintain an open-door policy and prioritize being available to
-                students outside of class hours. I believe mentorship is a
-                crucial aspect of education, especially in computer science
-                where the field evolves rapidly.
+                My classroom emphasizes collaborative learning, project-based
+                assessments, and continuous feedback. I strive to create an
+                inclusive learning environment that accommodates diverse
+                learning styles while maintaining high academic standards that
+                prepare students for careers in the rapidly evolving field of
+                software engineering.
               </p>
             </div>
 
@@ -130,7 +132,7 @@ const Teaching = () => {
                 <div>
                   <div className="font-medium">Student Contact</div>
                   <div className="text-sm text-gray-500">
-                    office@babcock.edu.ng
+                    maitanmi@babcock.edu.ng
                   </div>
                 </div>
               </div>

@@ -7,11 +7,14 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-xl font-bold mb-4">Prof. Sola Maitanmi</h3>
+            <h3 className="text-xl font-bold mb-4">
+              Dr. Oluwasola S. Maitanmi
+            </h3>
             <p className="text-gray-400 mb-4">
-              Professor of Software Engineering at Babcock University,
-              specializing in artificial intelligence, machine learning, and
-              computational theory with focus on African development.
+              Associate Professor of Computer Science (Software Engineering) at
+              Babcock University, specializing in Cyber Physical Systems,
+              Distance Learning Education, Learning Management Systems, and
+              Human Computer Interaction.
             </p>
 
             <div className="flex space-x-4">
@@ -63,18 +66,22 @@ const Footer = () => {
             <h4 className="font-bold mb-4">Resources</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a
+                  href="https://www.babcock.edu.ng"
+                  target="_blank"
+                  className="hover:text-white transition-colors"
+                >
                   Babcock University
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  SE Department
+                  Software Engineering Department
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Nigerian CS Community
+                  BUCODeL
                 </a>
               </li>
               <li>
@@ -88,12 +95,12 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Prof. Sola Maitanmi. All rights
+            © {new Date().getFullYear()} Dr. Oluwasola S. Maitanmi. All rights
             reserved.
           </div>
 
           <div className="text-gray-400 text-sm">
-            Made with React, Vite, and Tailwind CSS
+            Software Engineering Department, Babcock University
           </div>
         </div>
       </div>

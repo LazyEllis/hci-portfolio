@@ -23,32 +23,33 @@ const Experience = () => {
 
   const experiences = [
     {
-      period: "2018 - Present",
-      title: "Professor of Software Engineering",
+      period: "Current",
+      title: "HOD, Software Engineering Department",
       company: "Babcock University",
       description:
-        "Leading research in AI and machine learning. Teaching graduate and undergraduate courses in algorithms and computational theory. Heading the Department of Software Engineering.",
+        "Leading the Software Engineering Department, overseeing curriculum development, faculty management, and strategic planning for departmental growth.",
     },
     {
-      period: "2013 - 2018",
-      title: "Associate Professor",
-      company: "Oxford University",
+      period: "Current",
+      title: "Deputy Director Academics",
+      company:
+        "Babcock University Center for Open and Distance e-learning (BUCODeL)",
       description:
-        "Conducted research on neural networks and deep learning. Supervised 15 PhD students to completion.",
+        "Managing academic operations for distance learning programs, developing e-learning strategies, and ensuring quality education delivery in virtual environments.",
     },
     {
-      period: "2010 - 2013",
-      title: "Research Scientist",
-      company: "Google Africa Research Center",
+      period: "2013 - Present",
+      title: "Associate Professor of Computer Science",
+      company: "Babcock University",
       description:
-        "Contributed to breakthrough projects in AI applications for African contexts and reinforcement learning systems.",
+        "Teaching and conducting research in Software Engineering, Human Computer Interaction, Cyber Physical Systems, and Learning Management Systems.",
     },
     {
-      period: "2007 - 2010",
-      title: "Postdoctoral Researcher",
-      company: "MIT Computer Science Lab",
+      period: "Post-Doctoral",
+      title: "Post-Doctoral Research",
+      company: "Andrews University, Berrien Springs, Michigan, USA",
       description:
-        "Focused on computational complexity theory and efficient algorithms for machine learning.",
+        "Conducted advanced research in software engineering methodologies and educational technology applications.",
     },
   ];
 

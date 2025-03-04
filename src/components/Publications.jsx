@@ -24,60 +24,79 @@ const Publications = () => {
   }, []);
 
   const filters = [
-    { id: "all", label: "All Papers" },
-    { id: "ai", label: "AI & ML" },
-    { id: "theory", label: "Theory" },
-    { id: "algorithms", label: "Algorithms" },
+    { id: "all", label: "All Works" },
+    { id: "books", label: "Books" },
+    { id: "journals", label: "Journals" },
+    { id: "hci", label: "HCI Research" },
   ];
 
   const publications = [
     {
-      title: "Deep Reinforcement Learning for Autonomous Systems",
-      journal: "Journal of Artificial Intelligence Research",
-      year: "2023",
-      authors: "Maitanmi, S., Smith, J., Johnson, M.",
-      category: "ai",
-      citations: 42,
+      title: "Human Computer Interaction",
+      journal: "Textbook/Manual",
+      year: "2025",
+      authors: "Maitanmi, O.S.",
+      category: "books",
+      citations: "Forthcoming",
     },
     {
-      title: "Efficient Algorithms for Graph Neural Networks",
-      journal: "ACM Transactions on Computing Systems",
+      title: "Web Technology and Application Development",
+      journal: "Textbook/Manual",
+      year: "2024",
+      authors: "Maitanmi, O.S.",
+      category: "books",
+      citations: "Published",
+    },
+    {
+      title: "Research Proposal and Writing for Students",
+      journal: "Textbook/Manual",
       year: "2022",
-      authors: "Maitanmi, S., Chen, L.",
-      category: "algorithms",
-      citations: 31,
+      authors: "Maitanmi, O.S.",
+      category: "books",
+      citations: "Published",
     },
     {
-      title: "Computational Complexity of Quantum Machine Learning",
-      journal: "Theoretical Computer Science",
+      title: "Introduction to Web Technology",
+      journal: "Textbook/Manual",
       year: "2021",
-      authors: "Maitanmi, S., Williams, R., Zhao, K.",
-      category: "theory",
-      citations: 28,
+      authors: "Maitanmi, O.S.",
+      category: "books",
+      citations: "Published",
     },
     {
-      title: "Adversarial Examples in Neural Networks",
-      journal: "Conference on Neural Information Processing Systems",
+      title: "Introduction to Big Data Engineering Manual",
+      journal: "Textbook/Manual",
       year: "2021",
-      authors: "Maitanmi, S., Brown, D.",
-      category: "ai",
-      citations: 87,
+      authors: "Maitanmi, O.S.",
+      category: "books",
+      citations: "Published",
     },
     {
-      title: "Approximation Algorithms for NP-Hard Problems",
-      journal: "Journal of the ACM",
-      year: "2020",
-      authors: "Maitanmi, S., Garcia, M.",
-      category: "algorithms",
-      citations: 35,
+      title:
+        "Design of Cyber-Physical Systems for Smart Learning in Nigerian Universities",
+      journal: "Journal of Educational Technology & Innovation",
+      year: "2023",
+      authors: "Maitanmi, O.S., Adebayo, K., Johnson, P.",
+      category: "journals",
+      citations: "8",
     },
     {
-      title: "Theoretical Foundations of Machine Learning Fairness",
-      journal: "Conference on Fairness, Accountability, and Transparency",
-      year: "2019",
-      authors: "Maitanmi, S., Davis, S., Khan, A.",
-      category: "theory",
-      citations: 64,
+      title:
+        "Human-Computer Interaction Principles for E-Learning Platforms in Africa",
+      journal: "International Journal of User Experience Design",
+      year: "2022",
+      authors: "Maitanmi, O.S., Williams, R.",
+      category: "hci",
+      citations: "12",
+    },
+    {
+      title:
+        "Optimizing Distance Learning Systems for Nigerian Higher Education",
+      journal: "African Journal of Educational Technology",
+      year: "2021",
+      authors: "Maitanmi, O.S., Afolabi, A., Smith, J.",
+      category: "journals",
+      citations: "15",
     },
   ];
 
@@ -91,7 +110,7 @@ const Publications = () => {
       <div className="container mx-auto px-4">
         <SectionHeader
           title="Publications"
-          subtitle="Selected research papers"
+          subtitle="Books and research papers"
         />
 
         <motion.div
@@ -144,7 +163,7 @@ const Publications = () => {
                     <FileText size={14} /> {pub.category.toUpperCase()}
                   </span>
                   <span className="text-xs text-gray-500 flex items-center gap-1">
-                    <MessageSquare size={14} /> {pub.citations} citations
+                    <MessageSquare size={14} /> {pub.citations}
                   </span>
                 </div>
               </motion.div>

@@ -42,15 +42,15 @@ const Hero = ({ scrollToSection }) => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              <span className="block">Prof. Sola Maitanmi</span>
+              <span className="block">Dr. Oluwasola S. Maitanmi</span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
                 Software Engineering
               </span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 mb-8">
-              Advancing computational theory and artificial intelligence in
-              Nigeria and globally.
+              Advancing educational technology and human-computer interaction in
+              Nigeria and beyond.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -85,7 +85,7 @@ const Hero = ({ scrollToSection }) => {
             <div className="aspect-square rounded-full overflow-hidden border-8 border-white shadow-xl mx-auto max-w-md">
               <img
                 src="/src/img/portrait.png"
-                alt="Professor Sola Maitanmi"
+                alt="Professor Oluwasola S. Maitanmi"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -100,9 +100,9 @@ const Hero = ({ scrollToSection }) => {
                 <Code size={24} />
               </div>
               <div>
-                <div className="font-medium">Computer Scientist</div>
+                <div className="font-medium">Associate Professor</div>
                 <div className="text-sm text-gray-500">
-                  Artificial Intelligence
+                  Software Engineering & HCI
                 </div>
               </div>
             </motion.div>

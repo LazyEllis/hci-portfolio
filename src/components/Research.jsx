@@ -1,5 +1,12 @@
 import { useState, useEffect, useRef } from "react";
-import { Briefcase, Code, GraduationCap } from "lucide-react";
+import {
+  Briefcase,
+  Code,
+  GraduationCap,
+  Laptop,
+  BookOpen,
+  Users,
+} from "lucide-react";
 import { motion } from "framer-motion";
 import SectionHeader from "./SectionHeader";
 
@@ -25,86 +32,91 @@ const Research = () => {
 
   const interests = [
     {
-      title: "Machine Learning Interpretability",
+      title: "Human-Computer Interaction",
       description:
-        "Developing methods to make complex machine learning models more interpretable and explainable to humans, focusing on fairness and transparency in AI systems.",
+        "Developing more intuitive and accessible interfaces for educational platforms, with a focus on adapting technology to diverse learning environments in Nigeria and across Africa.",
+      icon: <Users size={36} />,
+    },
+    {
+      title: "Distance Learning Technology",
+      description:
+        "Researching and implementing effective e-learning systems that overcome infrastructure challenges in developing regions while maintaining educational quality and engagement.",
+      icon: <Laptop size={36} />,
+    },
+    {
+      title: "Cyber-Physical Systems",
+      description:
+        "Exploring the integration of computational systems with physical processes to create smart learning environments and enhance educational outcomes.",
       icon: <Code size={36} />,
-    },
-    {
-      title: "Algorithmic Efficiency",
-      description:
-        "Researching novel approaches to improve the efficiency of algorithms for large-scale data processing and optimization problems.",
-      icon: <Briefcase size={36} />,
-    },
-    {
-      title: "Neural Network Theory",
-      description:
-        "Investigating the theoretical foundations of deep learning and developing new architectures for specific problem domains.",
-      icon: <GraduationCap size={36} />,
     },
   ];
 
   const projects = [
     {
-      title: "Explainable AI Framework",
+      title: "User-Centered LMS for Nigerian Universities",
       description:
-        "Developing a comprehensive framework for making black-box AI models more interpretable through visualization techniques and local explanations.",
+        "Developing a learning management system specifically designed for the Nigerian educational context, addressing local infrastructure challenges and cultural learning preferences.",
       status: "Active",
-      funding: "Nigerian Research Foundation",
-      collaborators: "Lagos University Teaching Hospital, MIT",
-      year: "2022-2025",
+      funding: "Babcock University Research Grant",
+      collaborators: "BUCODeL, Nigerian Universities Commission",
+      year: "2023-2025",
     },
     {
-      title: "Efficient Graph Neural Networks",
+      title: "HCI Patterns for Educational Software",
       description:
-        "Creating more computationally efficient graph neural network architectures for processing large-scale graph data structures.",
+        "Documenting and testing effective interface design patterns for educational software used in resource-constrained environments.",
       status: "Active",
-      funding: "Google Africa Research",
-      collaborators: "Google DeepMind, University of Cape Town",
-      year: "2023-2024",
+      funding: "Software Engineering Department",
+      collaborators: "Andrews University, University of Lagos",
+      year: "2022-2024",
     },
     {
-      title: "Fair Machine Learning Systems",
+      title: "Smart Learning Environment Framework",
       description:
-        "Investigating methods to detect and mitigate bias in machine learning pipelines across various domains.",
+        "Creating a cyber-physical system framework that enhances classroom learning through intelligent sensors and adaptive learning technologies.",
       status: "Completed",
-      funding: "African AI Initiative",
-      collaborators: "Babcock University, Oxford University",
+      funding: "Nigerian Education Trust Fund",
+      collaborators: "Babcock University, Microsoft Africa Research",
       year: "2020-2022",
     },
   ];
 
+  // Using Dicebear Avatar API to generate consistent profile images based on names
   const students = [
     {
-      name: "Oluwaseun Johnson",
-      degree: "PhD",
-      topic: "Reinforcement Learning for Agricultural Decision Systems",
-      year: "3rd Year",
-      image: "/api/placeholder/60/60",
-    },
-    {
-      name: "Michael Zhang",
-      degree: "PhD",
-      topic: "Graph Neural Networks for Drug Discovery",
-      year: "4th Year",
-      image: "/api/placeholder/60/60",
-    },
-    {
-      name: "Emily Williams",
-      degree: "PhD",
-      topic: "Fairness in Recommender Systems",
-      year: "2nd Year",
-      image: "/api/placeholder/60/60",
-    },
-    {
-      name: "Daniel Okonkwo",
+      name: "Adebayo Oluwaseun",
       degree: "PhD",
       topic:
-        "Theoretical Bounds for Semi-Supervised Learning with Limited Data",
+        "Adaptive User Interface Design for E-Learning Platforms in Low-Bandwidth Environments",
+      year: "3rd Year",
+      image: `https://api.dicebear.com/7.x/avataaars/svg?seed=AdebayoOluwaseun&backgroundColor=b6e3f4`,
+    },
+    {
+      name: "Grace Okonkwo",
+      degree: "PhD",
+      topic:
+        "Cyber-Physical Systems for Smart Classrooms in Nigerian Universities",
+      year: "4th Year",
+      image: `https://api.dicebear.com/7.x/avataaars/svg?seed=GraceOkonkwo&backgroundColor=d1d4f9`,
+    },
+    {
+      name: "Emmanuel Afolabi",
+      degree: "PhD",
+      topic:
+        "Usability Evaluation Methods for Educational Software in African Context",
+      year: "2nd Year",
+      image: `https://api.dicebear.com/7.x/avataaars/svg?seed=EmmanuelAfolabi&backgroundColor=c0aede`,
+    },
+    {
+      name: "Blessing Nwosu",
+      degree: "PhD",
+      topic:
+        "Learning Analytics and Personalized Learning in Distance Education",
       year: "1st Year",
-      image: "/api/placeholder/60/60",
+      image: `https://api.dicebear.com/7.x/avataaars/svg?seed=BlessingNwosu&backgroundColor=ffdfbf`,
     },
   ];
+
   return (
     <section id="research" ref={sectionRef} className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -254,11 +266,14 @@ const Research = () => {
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow border border-gray-100 flex items-center gap-4"
                 >
-                  <img
-                    src={student.image}
-                    alt={student.name}
-                    className="w-16 h-16 rounded-full object-cover border-2 border-indigo-100"
-                  />
+                  <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-indigo-100 bg-indigo-50 flex-shrink-0">
+                    <img
+                      src={student.image}
+                      alt={student.name}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
 
                   <div>
                     <h3 className="font-bold text-lg">{student.name}</h3>
